@@ -18,19 +18,19 @@
 }
 
 .tooltip-content.tooltip-topLeft {
-  transform: translateY(-100%);
+  transform: translateX(-70%) translateY(-100%);
 }
 
 .tooltip-content.tooltip-topRight {
-  transform: translateX(-100%) translateY(-100%);
+  transform: translateX(-30%) translateY(-100%);
 }
 
 .tooltip-content.tooltip-bottomLeft {
-  transform: translateY(0);
+  transform: translateX(-70%) translateY(0);
 }
 
 .tooltip-content.tooltip-bottomRight {
-  transform: translateX(-100%) translateY(0);
+  transform: translateX(-30%) translateY(0);
 }
 
 .tooltip-content.tooltip-leftTop {
