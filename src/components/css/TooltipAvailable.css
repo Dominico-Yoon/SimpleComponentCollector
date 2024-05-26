@@ -1,9 +1,9 @@
-.EnableTooltip {
+.TooltipAvailable {
   margin-top: 100px;
   margin-left: 150px;
 }
 
-.EnableTooltip:has(.tooltip-disable-test) {
+.TooltipAvailable:has(.tooltip-disable-test) {
   display: flex;
 }
 

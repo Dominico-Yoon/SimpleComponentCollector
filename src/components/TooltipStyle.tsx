@@ -1,9 +1,9 @@
 import Tooltip from "./Tooltip";
-import "./css/StyleTooltip.css";
+import "./css/TooltipStyle.css";
 
-const StyleTooltip = () => {
+const TooltipStyle = () => {
   return (
-    <div className="StyleTooltip">
+    <div className="TooltipStyle">
       <Tooltip content="Pink" tooltipStyle={{ backgroundColor: "#fac" }}>
         <button className="test-button pink">Pink</button>
       </Tooltip>
@@ -17,4 +17,4 @@ const StyleTooltip = () => {
   );
 };
 
-export default StyleTooltip;
+export default TooltipStyle;

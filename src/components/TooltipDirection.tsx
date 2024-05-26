@@ -1,9 +1,9 @@
 import Tooltip from "./Tooltip";
-import "./css/DirectionTooltip.css";
+import "./css/TooltipDirection.css";
 
-const DirectionTooltip = () => {
+const TooltipDirection = () => {
   return (
-    <div className="DirectionTooltip">
+    <div className="TooltipDirection">
       <div>
         <div className="top-wrapper">
           <Tooltip content="Top Left Tooltip" position="topLeft">
@@ -20,14 +20,26 @@ const DirectionTooltip = () => {
         </div>
 
         <div className="left-wrapper">
+          <Tooltip content="Left Top Tooltip" position="leftTop">
+            <button className="test-button">Left Top</button>
+          </Tooltip>
           <Tooltip content="Left Tooltip" position="left">
             <button className="test-button">Left</button>
+          </Tooltip>
+          <Tooltip content="Left Bottom Tooltip" position="leftBottom">
+            <button className="test-button">Left Bottom</button>
           </Tooltip>
         </div>
 
         <div className="right-wrapper">
+          <Tooltip content="Right Tooltip" position="rightTop">
+            <button className="test-button">Right Top</button>
+          </Tooltip>
           <Tooltip content="Right Tooltip" position="right">
             <button className="test-button">Right</button>
+          </Tooltip>
+          <Tooltip content="Right Tooltip" position="rightBottom">
+            <button className="test-button">Right Bottom</button>
           </Tooltip>
         </div>
 
@@ -58,14 +70,26 @@ const DirectionTooltip = () => {
         </div>
 
         <div className="left-wrapper">
+          <Tooltip content="Left Top Tooltip" position="leftTop">
+            <button className="test-button">Left Top</button>
+          </Tooltip>
           <Tooltip content="Left Tooltip" position="left">
             <button className="test-button">Left</button>
+          </Tooltip>
+          <Tooltip content="Left Bottom Tooltip" position="leftBottom">
+            <button className="test-button">Left Bottom</button>
           </Tooltip>
         </div>
 
         <div className="right-wrapper">
+          <Tooltip content="Right Tooltip" position="rightTop">
+            <button className="test-button">Right Top</button>
+          </Tooltip>
           <Tooltip content="Right Tooltip" position="right">
             <button className="test-button">Right</button>
+          </Tooltip>
+          <Tooltip content="Right Tooltip" position="rightBottom">
+            <button className="test-button">Right Bottom</button>
           </Tooltip>
         </div>
 
@@ -85,4 +109,4 @@ const DirectionTooltip = () => {
   );
 };
 
-export default DirectionTooltip;
+export default TooltipDirection;

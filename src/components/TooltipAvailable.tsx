@@ -1,8 +1,8 @@
 import { useState } from "react";
-import "./css/EnableTooltip.css";
+import "./css/TooltipAvailable.css";
 import Tooltip from "./Tooltip";
 
-const EnableTooltip = () => {
+const TooltipAvailable = () => {
   const [available, setAvailable] = useState("Enable");
   const [isTooltipDisabled, setIsTooltipDisabled] = useState(false);
 
@@ -17,7 +17,7 @@ const EnableTooltip = () => {
   };
 
   return (
-    <div className="EnableTooltip">
+    <div className="TooltipAvailable">
       <button className={`test-button ${available}`} onClick={onClickAvailable}>
         {available}
       </button>
@@ -35,4 +35,4 @@ const EnableTooltip = () => {
   );
 };
 
-export default EnableTooltip;
+export default TooltipAvailable;

@@ -1,9 +1,9 @@
 import Tooltip from "./Tooltip";
-import "./css/DelayTooltip.css";
+import "./css/TooltipDelay.css";
 
-const DelayTooltip = () => {
+const TooltipDelay = () => {
   return (
-    <div className="DelayTooltip">
+    <div className="TooltipDelay">
       <div>
         <Tooltip content="Enter Delay 1s" showDelay={1000}>
           <button className="test-button">enter delay 1s</button>
@@ -44,4 +44,4 @@ const DelayTooltip = () => {
   );
 };
 
-export default DelayTooltip;
+export default TooltipDelay;
