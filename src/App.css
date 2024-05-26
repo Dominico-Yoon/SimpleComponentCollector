@@ -1,0 +1,43 @@
+.container-layout {
+  display: flex;
+  background-color: #f3f7fa;
+}
+
+.container-layout section {
+  width: 100%;
+}
+
+.test-button {
+  --bc: #1aab8a;
+  width: 70px;
+  border-radius: 4px;
+  background-color: var(--bc);
+  color: #fff;
+  border: none;
+  position: relative;
+  font-size: 15px;
+  padding: 2px 0;
+  margin: 2px 2px;
+  cursor: pointer;
+  transition: 800ms ease all;
+  outline: none;
+}
+
+.test-button::before,
+.test-button::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 2px;
+  width: 0;
+  background: var(--bc);
+  transition: 400ms ease all;
+}
+
+.test-button::after {
+  right: inherit;
+  top: inherit;
+  left: 0;
+  bottom: 0;
+}

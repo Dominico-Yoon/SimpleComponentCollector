@@ -1,0 +1,11 @@
+.DelayTooltip {
+  margin-top: 50px;
+  margin-left: 200px;
+}
+
+.DelayTooltip .tooltip-container {
+  width: 150px;
+  display: flex;
+  margin: 10px 0;
+  justify-content: center;
+}

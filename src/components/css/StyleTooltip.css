@@ -1,0 +1,13 @@
+.StyleTooltip {
+  margin-top: 100px;
+  margin-left: 150px;
+}
+
+.pink {
+  --bc: #fac;
+}
+
+.yellow {
+  --bc: #fff1aa;
+  color: #333;
+}

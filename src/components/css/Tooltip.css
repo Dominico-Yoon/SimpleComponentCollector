@@ -1,0 +1,70 @@
+.tooltip-container {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltip-content {
+  position: absolute;
+  transform: translateX(-50%);
+  padding: 8px;
+  background-color: black;
+  color: white;
+  border-radius: 4px;
+  white-space: nowrap;
+  z-index: 1000; /* 최상위로 표시하기 위해 z-index를 높게 설정 */
+  visibility: visible;
+  opacity: 1;
+  transition: opacity 0.2s;
+}
+
+.tooltip-content.tooltip-topLeft {
+  transform: translateY(-100%);
+}
+
+.tooltip-content.tooltip-topRight {
+  transform: translateX(-100%) translateY(-100%);
+}
+
+.tooltip-content.tooltip-bottomLeft {
+  transform: translateY(0);
+}
+
+.tooltip-content.tooltip-bottomRight {
+  transform: translateX(-100%) translateY(0);
+}
+
+.tooltip-content.tooltip-leftTop {
+  transform: translateX(-100%) translateY(-50%);
+}
+
+.tooltip-content.tooltip-leftBottom {
+  transform: translateX(-100%) translateY(50%);
+}
+
+.tooltip-content.tooltip-rightTop {
+  transform: translateX(0) translateY(-50%);
+}
+
+.tooltip-content.tooltip-rightBottom {
+  transform: translateX(0) translateY(50%);
+}
+
+.tooltip-content.tooltip-left {
+  transform: translateX(-100%) translateY(-50%);
+}
+
+.tooltip-content.tooltip-right {
+  transform: translateX(0) translateY(-50%);
+}
+
+.tooltip-content.tooltip-bottom {
+  transform: translateX(-50%) translateY(0);
+}
+
+.tooltip-content.tooltip-top {
+  transform: translateX(-50%) translateY(-100%);
+}
+
+.tooltip-trigger {
+  cursor: pointer;
+}

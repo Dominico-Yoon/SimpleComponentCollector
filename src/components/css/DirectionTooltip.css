@@ -1,0 +1,52 @@
+.DirectionTooltip {
+  margin-top: 100px;
+  margin-left: 100px;
+  display: flex;
+}
+
+.DirectionTooltip .overflow-scroll {
+  margin-left: 50px;
+  height: 50px;
+  overflow: scroll;
+}
+
+.top-wrapper {
+  margin-left: 70px;
+  white-space: nowrap;
+}
+
+.top {
+  --bc: #f3f7fa;
+  width: 70px;
+  border-radius: 4px;
+  background-color: var(--bc);
+  color: #f3f7fa;
+  border: none;
+  position: relative;
+  font-size: 15px;
+  padding: 2px 0;
+  margin: 2px 2px;
+  cursor: pointer;
+  transition: 800ms ease all;
+  outline: none;
+}
+
+.left-wrapper {
+  width: 70px;
+  float: left;
+  display: flex;
+  flex-direction: column;
+}
+
+.right-wrapper {
+  width: 70px;
+  margin-left: 290px;
+  display: flex;
+  flex-direction: column;
+}
+
+.bottom-wrapper {
+  margin-left: 70px;
+  clear: both;
+  white-space: nowrap;
+}
