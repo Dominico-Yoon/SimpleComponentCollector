@@ -1,6 +1,6 @@
 # 💡 Tooltip Components
 
-![image](https://github.com/Dominico-Yoon/SimpleComponentCollector/assets/142984862/4471dac2-1b64-4eab-b95b-ef371f732b63)
+![image](https://github.com/Dominico-Yoon/SimpleComponentCollector/assets/142984862/5f76d950-fe24-4d23-b5b5-0bfe5fb2bab8)
 
 
 
